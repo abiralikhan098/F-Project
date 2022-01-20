@@ -52,6 +52,7 @@ body {
 /*===== BANNER =====*/
 
 .banner_area {
+	background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -109,38 +110,50 @@ body {
 	font-size: 18px;
 	color: #fff;
 	font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .banner_form input {
 	width: 450px;
 	height: 200px;
 	border-radius: 25px;
-	background-color: rgb(255, 255, 255);
-    margin-bottom: 15px;
+	background-color: transparent;
+    margin-bottom: 35px;
 }
 
-.banner_form button {
+.btn-01 {
 	font-weight: 700;
-	font-size: 18px;
-	color: rgb(0, 0, 0);
-	background: transparent;
-	background-color: rgb(255, 255, 255);
-	text-transform: uppercase;
-	border: none;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
 	border-radius: 25px;
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 10px 45px;
+	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+	margin-right: 60px;
+}
+
+.btn-02 {
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	background-color: transparent;
+	text-transform: uppercase;
 	padding: 10px 35px;
-	margin-top: 10px;
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.6);
 	-webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.6);
 	-moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 	-webkit-transition: all .3s linear;
 	transition: all .3s linear;
 	margin-left: 60px;
-	margin-right: 60px;
 }
+
 
 .banner_form button:hover {
     background: #000;
-    color: #fff;
 }
